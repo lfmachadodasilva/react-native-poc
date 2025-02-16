@@ -41,7 +41,7 @@ function DetailsScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Details Screen</Text>
-      <Button title="Go to Details" onPress={() => navigation.goBack()} />
+      <Button title="Go to home" onPress={() => navigation.goBack()} />
     </View>
   );
 }
