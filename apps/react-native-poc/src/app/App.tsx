@@ -49,8 +49,20 @@ function DetailsScreen() {
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
   screens: {
-    Home: HomeScreen,
-    Details: DetailsScreen,
+    Home: {
+      screen: HomeScreen,
+      options: {
+        title: 'Home',
+        animation: 'slide_from_left',
+      },
+    },
+    Details: {
+      screen: DetailsScreen,
+      options: {
+        title: 'Details',
+        animation: 'slide_from_right',
+      },
+    },
   },
 });
 
