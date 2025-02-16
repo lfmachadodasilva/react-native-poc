@@ -38,7 +38,7 @@ export const App = () => {
               testID="heading"
               role="heading"
             >
-              Welcome ReactNativePoc 👋
+              Welcome ReactNativePoc 👋 this is working :)
             </Text>
           </View>
           <View style={styles.section}>
@@ -86,7 +86,7 @@ export const App = () => {
                 style={[styles.listItem, styles.learning]}
                 onPress={() =>
                   Linking.openURL(
-                    'https://nx.dev/getting-started/intro?utm_source=nx-project'
+                    'https://nx.dev/getting-started/intro?utm_source=nx-project',
                   )
                 }
               >
@@ -170,7 +170,7 @@ export const App = () => {
                 style={[styles.listItem, styles.learning]}
                 onPress={() =>
                   Linking.openURL(
-                    'https://www.youtube.com/@NxDevtools/videos?utm_source=nx-project'
+                    'https://www.youtube.com/@NxDevtools/videos?utm_source=nx-project',
                   )
                 }
               >
@@ -202,7 +202,7 @@ export const App = () => {
                 style={[styles.listItem, styles.learning]}
                 onPress={() =>
                   Linking.openURL(
-                    'https://nx.dev/nx-api/expo/documents/overview'
+                    'https://nx.dev/nx-api/expo/documents/overview',
                   )
                 }
               >
@@ -274,7 +274,7 @@ export const App = () => {
             <TouchableOpacity
               onPress={() =>
                 Linking.openURL(
-                  'https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console&utm_source=nx-project'
+                  'https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console&utm_source=nx-project',
                 )
               }
             >
@@ -309,7 +309,7 @@ export const App = () => {
             <TouchableOpacity
               onPress={() =>
                 Linking.openURL(
-                  'https://plugins.jetbrains.com/plugin/21060-nx-console'
+                  'https://plugins.jetbrains.com/plugin/21060-nx-console',
                 )
               }
             >
